@@ -1,0 +1,90 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "71c3c03f-aaa1-4732-862e-94e9720dabfd": {
+        "id": "71c3c03f-aaa1-4732-862e-94e9720dabfd",
+        "parent": null,
+        "name": "iSigmaMergeProject",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "463479d4-7aff-431c-9aaf-fda8445308db",
+          "d2d3ece7-a121-47d5-bf04-4f64b69c918f"
+        ],
+        "isRemovable": false,
+        "filePath": "iSigmaMergeProject"
+      },
+      "463479d4-7aff-431c-9aaf-fda8445308db": {
+        "id": "463479d4-7aff-431c-9aaf-fda8445308db",
+        "parent": "71c3c03f-aaa1-4732-862e-94e9720dabfd",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "iSigmaMergeProject/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      },
+      "d2d3ece7-a121-47d5-bf04-4f64b69c918f": {
+        "id": "d2d3ece7-a121-47d5-bf04-4f64b69c918f",
+        "parent": "71c3c03f-aaa1-4732-862e-94e9720dabfd",
+        "name": "staging.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "iSigmaMergeProject/staging.js",
+        "code": "console.log(\"staging.js\");"
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "71c3c03f-aaa1-4732-862e-94e9720dabfd",
+    "openFiles": [
+      "463479d4-7aff-431c-9aaf-fda8445308db",
+      "d2d3ece7-a121-47d5-bf04-4f64b69c918f"
+    ],
+    "currentFileId": "d2d3ece7-a121-47d5-bf04-4f64b69c918f",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "iSigmaMergeProject",
+    "projectDescription": "Sigma Project to test merge functionality",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1562741284843
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "iSigmaMergeProject",
+      "url": "https://github.com/sigmavcs/iSigmaMergeProject"
+    }
+  }
+}
