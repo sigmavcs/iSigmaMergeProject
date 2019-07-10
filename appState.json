@@ -66,7 +66,7 @@
         "children": [],
         "isRemovable": true,
         "filePath": "iSigmaMergeProject/dev/dev.js",
-        "code": "console.log(\"dev/dev.js\");"
+        "code": "console.log(\"staging/dev.js\");"
       }
     },
     "deletedFiles": [],
@@ -103,7 +103,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1562741607475
+    "lastSave": 1562742174098
   },
   "VCS_STATE": {
     "provider": "GitHub",
