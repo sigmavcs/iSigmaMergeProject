@@ -10,7 +10,7 @@
         "children": [
           "463479d4-7aff-431c-9aaf-fda8445308db",
           "d2d3ece7-a121-47d5-bf04-4f64b69c918f",
-          "f97959c5-93ac-4a70-9c80-01a8bb3bc843"
+          "4ccc32cf-9b0a-463f-bd87-d8fc218f0c69"
         ],
         "isRemovable": false,
         "filePath": "iSigmaMergeProject"
@@ -45,28 +45,28 @@
         "filePath": "iSigmaMergeProject/staging.js",
         "code": "console.log(\"staging.js\");"
       },
-      "f97959c5-93ac-4a70-9c80-01a8bb3bc843": {
-        "id": "f97959c5-93ac-4a70-9c80-01a8bb3bc843",
+      "4ccc32cf-9b0a-463f-bd87-d8fc218f0c69": {
+        "id": "4ccc32cf-9b0a-463f-bd87-d8fc218f0c69",
         "parent": "71c3c03f-aaa1-4732-862e-94e9720dabfd",
-        "name": "staging",
+        "name": "dev",
         "type": "DIRECTORY",
         "isDirectory": true,
         "children": [
-          "61e0df8b-9a69-4237-a0f5-18411a6bd58c"
+          "fd5456ae-94a5-4fd6-9564-01e4947efdb9"
         ],
         "isRemovable": true,
-        "filePath": "iSigmaMergeProject/staging"
+        "filePath": "iSigmaMergeProject/dev"
       },
-      "61e0df8b-9a69-4237-a0f5-18411a6bd58c": {
-        "id": "61e0df8b-9a69-4237-a0f5-18411a6bd58c",
-        "parent": "f97959c5-93ac-4a70-9c80-01a8bb3bc843",
-        "name": "staging.js",
+      "fd5456ae-94a5-4fd6-9564-01e4947efdb9": {
+        "id": "fd5456ae-94a5-4fd6-9564-01e4947efdb9",
+        "parent": "4ccc32cf-9b0a-463f-bd87-d8fc218f0c69",
+        "name": "dev.js",
         "type": "JS_FILE",
         "isDirectory": false,
         "children": [],
         "isRemovable": true,
-        "filePath": "iSigmaMergeProject/staging/staging.js",
-        "code": "console.log(\"staging/staging.js\");"
+        "filePath": "iSigmaMergeProject/dev/dev.js",
+        "code": "console.log(\"dev/dev.js\");"
       }
     },
     "deletedFiles": [],
@@ -74,9 +74,9 @@
     "openFiles": [
       "463479d4-7aff-431c-9aaf-fda8445308db",
       "d2d3ece7-a121-47d5-bf04-4f64b69c918f",
-      "61e0df8b-9a69-4237-a0f5-18411a6bd58c"
+      "fd5456ae-94a5-4fd6-9564-01e4947efdb9"
     ],
-    "currentFileId": "61e0df8b-9a69-4237-a0f5-18411a6bd58c",
+    "currentFileId": "fd5456ae-94a5-4fd6-9564-01e4947efdb9",
     "resources": {},
     "customTemplate": {
       "dialect": null,
@@ -103,7 +103,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1562741547700
+    "lastSave": 1562741607475
   },
   "VCS_STATE": {
     "provider": "GitHub",
