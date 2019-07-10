@@ -9,7 +9,8 @@
         "isDirectory": true,
         "children": [
           "463479d4-7aff-431c-9aaf-fda8445308db",
-          "d2d3ece7-a121-47d5-bf04-4f64b69c918f"
+          "d2d3ece7-a121-47d5-bf04-4f64b69c918f",
+          "f97959c5-93ac-4a70-9c80-01a8bb3bc843"
         ],
         "isRemovable": false,
         "filePath": "iSigmaMergeProject"
@@ -43,15 +44,39 @@
         "isRemovable": true,
         "filePath": "iSigmaMergeProject/staging.js",
         "code": "console.log(\"staging.js\");"
+      },
+      "f97959c5-93ac-4a70-9c80-01a8bb3bc843": {
+        "id": "f97959c5-93ac-4a70-9c80-01a8bb3bc843",
+        "parent": "71c3c03f-aaa1-4732-862e-94e9720dabfd",
+        "name": "staging",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "61e0df8b-9a69-4237-a0f5-18411a6bd58c"
+        ],
+        "isRemovable": true,
+        "filePath": "iSigmaMergeProject/staging"
+      },
+      "61e0df8b-9a69-4237-a0f5-18411a6bd58c": {
+        "id": "61e0df8b-9a69-4237-a0f5-18411a6bd58c",
+        "parent": "f97959c5-93ac-4a70-9c80-01a8bb3bc843",
+        "name": "staging.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "iSigmaMergeProject/staging/staging.js",
+        "code": "console.log(\"staging/staging.js\");"
       }
     },
     "deletedFiles": [],
     "rootNode": "71c3c03f-aaa1-4732-862e-94e9720dabfd",
     "openFiles": [
       "463479d4-7aff-431c-9aaf-fda8445308db",
-      "d2d3ece7-a121-47d5-bf04-4f64b69c918f"
+      "d2d3ece7-a121-47d5-bf04-4f64b69c918f",
+      "61e0df8b-9a69-4237-a0f5-18411a6bd58c"
     ],
-    "currentFileId": "d2d3ece7-a121-47d5-bf04-4f64b69c918f",
+    "currentFileId": "61e0df8b-9a69-4237-a0f5-18411a6bd58c",
     "resources": {},
     "customTemplate": {
       "dialect": null,
@@ -78,7 +103,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1562741284843
+    "lastSave": 1562741547700
   },
   "VCS_STATE": {
     "provider": "GitHub",
