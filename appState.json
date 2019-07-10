@@ -52,7 +52,8 @@
         "type": "DIRECTORY",
         "isDirectory": true,
         "children": [
-          "fd5456ae-94a5-4fd6-9564-01e4947efdb9"
+          "fd5456ae-94a5-4fd6-9564-01e4947efdb9",
+          "73ff2306-af14-4840-a771-5d94996abe23"
         ],
         "isRemovable": true,
         "filePath": "iSigmaMergeProject/dev"
@@ -67,6 +68,17 @@
         "isRemovable": true,
         "filePath": "iSigmaMergeProject/dev/dev.js",
         "code": "console.log(\"stg 6\");"
+      },
+      "73ff2306-af14-4840-a771-5d94996abe23": {
+        "id": "73ff2306-af14-4840-a771-5d94996abe23",
+        "parent": "4ccc32cf-9b0a-463f-bd87-d8fc218f0c69",
+        "name": "staging.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "iSigmaMergeProject/dev/staging.js",
+        "code": "console.log(\"staging 7\");"
       }
     },
     "deletedFiles": [],
@@ -74,9 +86,10 @@
     "openFiles": [
       "463479d4-7aff-431c-9aaf-fda8445308db",
       "d2d3ece7-a121-47d5-bf04-4f64b69c918f",
-      "fd5456ae-94a5-4fd6-9564-01e4947efdb9"
+      "fd5456ae-94a5-4fd6-9564-01e4947efdb9",
+      "73ff2306-af14-4840-a771-5d94996abe23"
     ],
-    "currentFileId": "fd5456ae-94a5-4fd6-9564-01e4947efdb9",
+    "currentFileId": "73ff2306-af14-4840-a771-5d94996abe23",
     "resources": {},
     "customTemplate": {
       "dialect": null,
@@ -103,7 +116,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1562743523204
+    "lastSave": 1562747778444
   },
   "VCS_STATE": {
     "provider": "GitHub",
